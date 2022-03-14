@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="login-container vertical-flex">
+      <div class="login-title vertical-flex">
+        <h1 class="log-tlt">Classter Project</h1>
+        <p class="log-txt">Welcome back! Please login to your account.</p>
+      </div>
+      <div id="error"></div>
+      <form class="form_class"id="form" action="/" method="GET">
+        <div class="name-input vertical-flex">
+          <input class="name" id="name" name="name" type="text" placeholder="Username">
+          <div class="user-error" id="user-error"></div>
+        </div>
+        <div class="pass-input vertical-flex">
+          <input class="password" id="password" name="password" type="password" placeholder="Password">
+          <div class="pass-error" id="pass-error"></div>
+        </div>
+        <div class="rem-input">
+          <div class="remember-me">
+            <input type="checkbox" value="lsRememberMe" id="rememberMe">
+            <label class="rem" for="rememberMe">Remember me</label>
+          </div>
+          <label class="forgot" for="forgot">Forgot Password</label>
+        </div>
+        <div class="buttons">
+          <button id="login" class="login-btn" type="login" onclick="passValue();">
+            Login
+          </button>
+          <button class="sign-btn" type="signup" id="sign-up">
+            Sign up
+          </button>
+        </div>
+      </form>
+    </div>
+    <footer class="terms">
+      <p class="trm-txt">Term of use. Privacy policy</p>
+    </footer>
+    <script src="./js/script.js"></script>
+ 
+  </div>
+ 
+</body>
+
+</html>

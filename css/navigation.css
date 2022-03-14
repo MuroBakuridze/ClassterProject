@@ -1,0 +1,109 @@
+.navigation{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    /* background-color: #05386B; */
+    background-color: #104941;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.navigation.active{
+    width: 110px;
+}
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navigation ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    padding-left: 20px;
+}
+.navigation ul li:hover{
+    background-color: #75401d;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    transition: 0.4s;
+}
+.navigation ul li:nth-child(1){
+    margin-bottom: 50px;
+}
+.navigation ul li:nth-child(1):hover{
+    background: transparent;
+}
+.brand_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+}
+.brand_h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 207, 207);
+}
+.brand_h2.active{
+    display: none;
+}
+.brand_icon{
+    width: 50px;
+}
+.brand_title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    justify-content: center;
+}
+.icon_img{
+    width: 30px;
+    height: 30px;
+    background-color: #104941;
+    background-color: rgb(235, 215, 126);
+    border-radius: 25%;
+    padding: 2px;
+    /* margin-right: 40px; */
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 217, 0);
+    margin-left: 40px;
+}
+
+.icon_h{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px;
+}
