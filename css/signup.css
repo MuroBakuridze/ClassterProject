@@ -12,9 +12,7 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  background: #3CA55C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #232031, #298b47);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #232031, #298b47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #416a59;
 }
 
 .login-container{
@@ -161,9 +159,7 @@
     color: aqua;
   }
   .main-container{
-    background: #3CA55C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #232031, #298b47);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #232031, #298b47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #416a59;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

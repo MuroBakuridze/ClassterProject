@@ -1,0 +1,21 @@
+.footer-container{
+    width: 100%;
+    margin-top: 80px;
+    padding: 20px;
+    border-top: 1px solid green;
+}
+.footer-logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.a-logos{
+    padding: 20px;
+}
+.ft-l-txt{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #416a59;
+}

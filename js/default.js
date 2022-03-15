@@ -12,6 +12,12 @@ fetch('./topbar.html')
         topBar.innerHTML = data;
     })
 
+const footer = document.querySelector('.footer');
+fetch('./footer.html')
+    .then(res => res.text())
+    .then(data => {
+        footer.innerHTML = data;
+    })
 
 function toggleMenu() {
     let toggle = document.querySelector('.toggle');
@@ -23,9 +29,8 @@ function toggleMenu() {
     navigation.classList.toggle('active');
     brandName.classList.toggle('active');
     main.classList.toggle('active');
-
-
 }
+
 
 
 

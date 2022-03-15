@@ -10,7 +10,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
       students_data.push('<td class="students_td">' + value.name + '</td>');
       students_data.push('<td class="students_td">' + value.username + '</td>');
       students_data.push('<td class="students_td">' + value.email + '</td>');
-      students_data.push('<td class="students_td">' + value.address + '</td>');
+      students_data.push('<td class="students_td">' + value.website + '</td>');
     });
     // table.innerHTML(students_data);
     $('#students_table').append(students_data);

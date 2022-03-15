@@ -3,7 +3,7 @@
     width: 300px;
     height: 100%;
     /* background-color: #05386B; */
-    background-color: #104941;
+    background-color: #416a59;
     transition: 0.5s;
     overflow: hidden;
 }
@@ -21,9 +21,13 @@
     width: 100%;
     list-style: none;
     padding-left: 20px;
+    /* background-color: #39395f; */
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin: 5px 0;
 }
 .navigation ul li:hover{
-    background-color: #75401d;
+    background-color: #39395f;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     transition: 0.4s;
@@ -44,7 +48,7 @@
 .brand_h2{
     font-size: 25px;
     font-weight: 900;
-    color: rgb(0, 207, 207);
+    color: rgb(243, 232, 232);
 }
 .brand_h2.active{
     display: none;
@@ -82,8 +86,7 @@
 .icon_img{
     width: 30px;
     height: 30px;
-    background-color: #104941;
-    background-color: rgb(235, 215, 126);
+    background-color: #a9c25d;
     border-radius: 25%;
     padding: 2px;
     /* margin-right: 40px; */
@@ -97,8 +100,9 @@
     white-space: nowrap;
     margin-bottom: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(255, 217, 0);
+    color: #a9c25d;
     margin-left: 40px;
+    font-size: 20px;
 }
 
 .icon_h{
